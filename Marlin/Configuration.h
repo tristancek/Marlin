@@ -670,9 +670,9 @@
     #define DEFAULT_Kd_LIST {  78.81,  78.81 }
   #else
     // Ender 3 v2
-    #define DEFAULT_Kp  33.44
-    #define DEFAULT_Ki   3.12
-    #define DEFAULT_Kd  89.61
+    #define DEFAULT_Kp  16.46 //Tristan
+    #define DEFAULT_Ki   1.24 //Tristan
+    #define DEFAULT_Kd  54.64 //Tristan
   #endif
 #endif
 
@@ -754,9 +754,9 @@
   //#define PID_BED_DEBUG // Print Bed PID debug data to the serial port.
 
   // Ender 3 V2
-  #define DEFAULT_bedKp 156.64
-  #define DEFAULT_bedKi  30.59
-  #define DEFAULT_bedKd 534.65
+  #define DEFAULT_bedKp 177.72 //Tristan
+  #define DEFAULT_bedKi  34.71 //Tristan
+  #define DEFAULT_bedKd 606.63 //Tristan
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
